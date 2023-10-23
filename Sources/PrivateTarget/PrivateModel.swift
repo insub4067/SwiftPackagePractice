@@ -7,7 +7,7 @@
 
 import Foundation
 
-private struct PrivateModel {
-    private let login: String
-    private let id: Int
+public struct PrivateModel {
+    public let login: String
+    public let id: Int
 }
